@@ -13,6 +13,8 @@ on:
       - v22.03.*
   pull_request:
     branches: [ openwrt-22.03 ]
+  watch:
+      types: started
 
 jobs:
   build:
